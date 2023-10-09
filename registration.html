@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIN</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- log in form -->
+    <div class="lg-container">
+        <div class="lg-form-logIn">
+            <form action="./contact.html">
+                <input type="text" id="lg-userName" placeholder="name" required>
+                <input type="password" id="lg-userPassword" placeholder="password" required>
+                <input type="button" id="lg-login" value="login">
+                <hr>
+                <input type="submit" id="createAccount" value="create new account">
+            </form>
+        </div>
+    
+
+        <!-- registration form -->
+        <div class="lg-newAccount" id="lg-newAccount">
+            <div class="lg-sub-newAccount">
+                <form action="">
+                    <span id="cr-cancel">x</span>
+                    <h1>Sign Up</h1>
+                    <p>It's quick and easy.</p>
+                    <hr>
+                    <div>
+                        <input type="text" id="firstName"  placeholder="first name">
+                        <input type="text" id="lastName" placeholder="last name">
+                    </div>
+                    <p id="cr-p-name"> name must have at least +3 character include (letters A-Z, numbers 0-9) and underscores (_)</p>
+                    <input type="email" name="email" id="cr-email" placeholder="email"  autocomplete="off">
+                    <p id="cr-p-email">invalid email</p>
+                    <input type="password" name="" id="cr-password" placeholder="password" >
+                    <p id="cr-p-pass">must have at least +8 character include (letters A-Z, numbers 0-9) and underscores (_)</p>
+                    <input type="password" name="" id="cr-confirm-password" placeholder="confirm password" >
+                    <p id="cr-p-confirm-pass">confirn password does not match</p>
+                    <input type="button" value="Sign Up" id="cr-btn-signUp">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/reg.js"></script>
+</body>
+</html>

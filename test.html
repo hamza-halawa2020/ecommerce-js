@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <style>
+        /*---------------start navbar css----------------*/
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navBar {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: white;
+            box-shadow: 0 1px 20px gray;
+            position: sticky;
+            top: 0;
+            margin-bottom: 50px;
+            padding: 5px 0;
+
+        }
+
+        .navBar .nav {
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navBar .nav li {
+            padding: 0 25px;
+            list-style-type: none;
+
+        }
+
+        .navBar .nav li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .navBar .nav li a:hover {
+            box-shadow: inset 0 3px;
+            padding: 10px 0 0 0;
+            color: gray;
+        }
+
+        .subNav {
+            display: none;
+            position: absolute;
+            background-color: gainsboro;
+            border-radius: 5px;
+        }
+
+        .subNav .asd {
+            margin: 25px 0;
+            cursor: pointer;
+        }
+
+        .navBar ul li:hover>.subNav {
+            display: block;
+        }
+
+        /*---------------end navbar css----------------*/
+    </style>
+</head>
+
+<body>
+    <!--------------start navbar------------->
+    <div class="navBar">
+        <a class="logo" href="#"><img src="./images/logo.PNG"></a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a href="">Products</a>
+                <ul class="subNav">
+                    <li class="asd"><a href="products.html">All</a></li>
+                    <li class="asd" id="clothesNavBar" onclick="filterByCategoryAllProductsPAge()">
+                        Clothes
+                    </li>
+                    <li class="asd" id="electronicsNavBar" onclick="filterProductsByCategory()">
+                        Electronics
+                    </li>
+                    <li class="asd" id="shoesNavBar" onclick="filterProductsByCategory()">
+                        Shoes
+                    </li>
+                    <li class="asd" id="FurnituresNavBar" onclick="filterProductsByCategory()">
+                        Furnitures
+                    </li>
+                    <li class="asd" id="OthersNavBar" onclick="filterProductsByCategory()">
+                        Others
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Single Product</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <!--------------end navbar------------->
+    <script src="admin.js">
+
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;
+}
+
+/*************************** SECTION 1 *****************************/
+
+.flex {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.leftimghome {
+    width: 90%;
+    height: auto;
+    margin-left: 1%;
+}
+
+.child {
+    width: 92%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.rightimgs4home {
+    width: 92%;
+    height: auto;
+}
+
+.child2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child2 > div img {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.child2 > div {
+    width: 45%;
+}
+
+.child2 > .container-2 img {
+    width: 100%
+}
+
+.child2 > .container-2 {
+    width: 45%;
+}
+
+.container {
+    position: relative;
+}
+
+.container-2 {
+    position: relative;
+}
+
+.container-3 {
+    position: relative;
+}
+
+.container-4 {
+    position: relative;
+}
+
+.container-5 {
+    position: relative;
+}
+
+
+.imghome {
+    width: 45%;
+    height: auto;
+    margin: 2% 2%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.imghome {
+    width: 45%;
+    height: auto;
+    margin: 2% 2%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.imghome {
+    width: 45%;
+    height: auto;
+    margin: 2% 2%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.imghome {
+    width: 45%;
+    height: auto;
+    margin: 2% 2%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 100%;
+    padding-right: 4%;
+}
+
+.text-2 {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 100%;
+    padding-right: 4%;
+}
+
+
+.text-3 {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 100%;
+    padding-right: 4%;
+}
+
+.text-4 {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 100%;
+    padding-right: 4%;
+}
+
+
+.text-5 {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.image {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 1s ease;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.image-2 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 1s ease;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.image-3 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 1s ease;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.image-4 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 1s ease;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .imghome {
+    opacity: 0.3;
+}
+
+.container-2:hover .imghome {
+    opacity: 0.3;
+}
+
+.container-3:hover .imghome {
+    opacity: 0.3;
+}
+
+.container-4:hover .imghome {
+    opacity: 0.3;
+}
+
+.container:hover .image {
+    opacity: 1;
+}
+
+.container-2:hover .image-2 {
+    opacity: 1;
+}
+
+.container-3:hover .image-3 {
+    opacity: 1;
+}
+
+.container-4:hover .image-4 {
+    opacity: 1;
+}
+
+.purchasenow a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    border: 1px white solid;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-right: 180px;
+    display: inline-block;
+}
+
+.purchasenow:hover a {
+    background-color: white;
+    color: black;
+}
+
+/***************************** SECTION 2 ************************/
+
+.flex2 {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+
+.menimghome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgmen {
+    margin-left: 25px;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+
+.paraghraf {
+    color: #a1a1a1;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+
+.header {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+/****************************** SECTION 3 ****************************/
+.flex3 {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.womenimghome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgwomen {
+    margin-left: 25px;
+    padding-left: 30px;
+}
+
+
+/********************************* SECTION 4 **************************/
+.flex4 {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.kidsimghome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgkids {
+    margin-left: 25px;
+    padding-left: 30px;
+}
+
+/**************************** SECTION 5 ******************************/
+.socialmedia {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.imgsocialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*************************** SECTION 6 ****************************/
+.explore {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px dotted #eee;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.ex1 {
+    width: 50%;
+    height: auto;
+    font-size: medium;
+    font-weight: 550;
+    padding: 2.5%;
+    margin-right: 10%;
+    margin-left: 1%;
+}
+
+
+.ex2 {
+    width: 50%;
+    height: auto;
+    margin-right: 4%;
+    margin-top: 90px;
+}
+
+.img4ex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ex3 {
+    width: 45%;
+    height: auto;
+    margin: 2%;
+}
+
+.discover a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+    border: 1px black solid;
+    padding: 12px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.discover:hover a {
+    background-color: black;
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.flex5 {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/***************************** SECTION 7 **************************/
+.subscribehome {
+    border-bottom: 3px dotted #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.sub1 {
+    width: 60%;
+    height: auto;
+    font-weight: 400;
+    font-size: small;
+    margin: 0 0;
+}
+
+.input [type=text] {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 100px;
+    margin-right: -60px;
+    display: inline-block;
+    width: 35%;
+    height: 10%;
+    padding: 0 10px;
+}
+
+.sub2 {
+    width: 40%;
+    height: auto;
+    padding: 0;
+}
+
+.class {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: large;
+}
+
+.class1 {
+    width: 50%;
+}
+
+.linksofhome {
+    color: #a1a1a1;
+    padding: 0;
+    margin-top: 0;
+}

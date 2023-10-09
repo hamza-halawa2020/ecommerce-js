@@ -1,0 +1,199 @@
+<!DOCTYPE>
+<html>
+<header>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="images/logo.PNG">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.min.css">
+</header>
+
+<body>
+    <!--------------start navbar------------->
+    <div class="navBar">
+        <a class="logo" href="index.html"><img src="./images/logo.PNG"></a>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a href="products.html">Products</a>
+                <ul class="subNav">
+                    <li class="asd"><a href="products.html">All</a></li>
+                    <li class="asd" id="clothesNavBar" onclick="filterByNavBar()">
+                        Clothes
+                    </li>
+                    <li class="asd" id="electronicsNavBar" onclick="filterByNavBar()">
+                        Electronics
+                    </li>
+                    <li class="asd" id="shoesNavBar" onclick="filterByNavBar()">
+                        Shoes
+                    </li>
+                    <li class="asd" id="FurnituresNavBar" onclick="filterByNavBar()">
+                        Furnitures
+                    </li>
+                    <li class="asd" id="OthersNavBar" onclick="filterByNavBar()">
+                        Others
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div class="loginDiv">
+            <i class="fa-regular fa-circle-user loginIcon"></i>
+            <p id="userNameLogIn">login</p>
+        </div>
+    </div>
+    <!--------------end navbar------------->
+    <!--------------start product page under navbar------------->
+    <!-- <div class="productPageUnderNvaBar">
+        <div>Check Our Products
+        </div>
+        <p>Awesome & creative Clothes
+        </p>
+    </div> -->
+    <!--------------end product Page undr navbar------------->
+
+    <!--------------start Our-Latest-Products------------->
+    <div class="OurLatestProductsPage">
+        <div>
+            Our Latest Products
+        </div>
+        <span>
+            Check out all of our products.
+        </span>
+    </div>
+
+    <div class="filterMenuProductsPageTop">
+        <div class="searchDiv">
+            <div>Find Your Product Easly</div>
+            <div class="searchBar">
+                <input type="text" placeholder="Search Here..." id="searchProducts">
+                <button class="searchButton" onclick="filterProducts()">
+                    Search
+                </button>
+            </div>
+        </div>
+        <label>
+            <input type="radio" name="category" id="6">
+            All
+        </label>
+        <label>
+            <input type="radio" name="category" id="1">
+            Clothes
+        </label>
+        <label>
+            <input type="radio" name="category" id="3">
+            Electronics
+        </label>
+        <label>
+            <input type="radio" name="category" id="5">
+            Others
+        </label>
+        <label>
+            <input type="radio" name="category" id="4">
+            Furnitures
+        </label>
+        <label>
+            <input type="radio" name="category" id="2">
+            Shoes
+        </label>
+    </div>
+
+    <div class="productsPage">
+
+
+    </div>
+    <!--------------end Our-Latest-Products------------->
+
+    <!--------------start footer------------->
+     <!-- footer part -->
+     <footer>
+        <!-- upper part of footer -->
+        <div class="upper-part">
+            <div>
+                <div class="logo-container">
+                    <img src="./images/white-logo.png" alt="">
+                </div>
+                <p><span>address: </span> smart village - beni-suef</p>
+                <p><span>email: </span> teamOfITI@org.eg</p>
+                <p><span>Phone: </span>+20-1201212121</p>
+            </div>
+            <div>
+                <h3>Shopping & Categories</h3>
+                <ul>
+                    <li><a href="#">Men's Shopping</a></li>
+                    <li><a href="#">Women's Shopping</a></li>
+                    <li><a href="#">Kid's Shopping</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Help & Informations</h3>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Tracking ID</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- lower part of footer -->
+        <div class="lower-part">
+            <p>
+                Copyright &copy; 2022 HexaShop Co., Ltd. All Rights Reserved.
+            </p>
+            <p>
+                created By <span>ITI</span> Team
+            </p>
+
+
+            <!-- create social media to contact with us -->
+            <div class="social-logo">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/product.js">
+    </script>
+</body>
+
+</html>
